@@ -1,33 +1,74 @@
-body{
-  display:flex;
-  flex-direction: column;
+body {
   margin:0;
   padding:0;
+  background-color:black;
 }
 
 header{
   display:flex;
   flex:1;
-  justify-content: space-between;
-  background-color: #1f2937;
-  padding:0 80px;
+  background-color:#1f2937;
   color:#f9faf8;
-  font-size: 12px;
-}
-
-header ul{
-  list-style: none;
-  display:flex;
-  gap:10px;
+  padding:0 5%;
 }
 
 header h1{
-  font-weight: 700;
-  font-size:18px;
+  font-size: 24px;
 }
 
-.hero-section{
-background-color: #1f2937;
-color:#f9faf8;
-padding:0 80px;
+header ul{
+  display:flex;
+  flex:1;
+  gap:16px;
+  align-items: center;
+  justify-content:flex-end;
+  gap:16px;
+  text-align: center;
+}
+
+header li{
+  list-style: none;
+  font-size:18px;
+  color:#E5E7EB
+}
+
+.hero-sect{
+  display:flex;
+  flex:1;
+  gap:20px;
+  background-color:#1f2937;
+  padding:50px 5%;
+}
+
+#hero-left{
+  flex:1;
+  padding:50px 0;
+}
+
+#hero-left h2{
+  color:#f9faf8;
+  font-size: 48px;
+  font-weight: extra-bold;
+  margin-bottom: 0px;
+}
+
+#hero-left p{
+  font-size:18px;
+  color:#e5e7eb;
+}
+
+.image{
+  flex:1.5;
+  background-color:#E5E7Eb;
+}
+
+.adv-sect{
+  background-color:#F9faf8;
+  text-align: center;
+}
+
+.card_cont{
+  display:flex;
+  flex:1;
+  gap:10px;
 }
